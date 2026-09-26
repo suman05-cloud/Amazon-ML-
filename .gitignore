@@ -1,0 +1,11 @@
+.venv/
+.venv_gpu/
+.uv-cache/
+__pycache__/
+*.pyc
+data set/
+artifacts/
+output/
+output_*/
+*.zip
+data set

@@ -1,0 +1,24 @@
+[project]
+name = "amazon-ml"
+version = "0.1.0"
+description = "Scalable business entity resolution optimized for entity-macro F0.5"
+readme = "README.md"
+authors = [
+    { name = "suman05-cloud", email = "patarisuman05@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anyascii>=0.3,<1",
+    "lightgbm>=4.6,<5",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "rapidfuzz>=3.14,<4",
+    "scikit-learn>=1.7,<2",
+]
+
+[project.scripts]
+amazon-ml = "amazon_ml:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

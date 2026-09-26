@@ -1,0 +1,6 @@
+# Install torch from the official CUDA index first (see GPU_README.md).
+transformers==4.49.0
+accelerate==1.4.0
+sentencepiece==0.2.0
+safetensors>=0.5,<1
+xgboost==3.0.2
